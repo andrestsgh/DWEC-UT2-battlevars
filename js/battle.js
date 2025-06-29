@@ -1,4 +1,4 @@
-let serverUrl="http://localhost:8000";
+let serverUrl="https://www.sai.kozow.com";
 
 function enviarPuntuacion(nombre,puntos) {
 
