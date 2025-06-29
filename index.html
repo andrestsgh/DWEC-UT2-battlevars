@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>La batalla de las variables</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="small" src="images/axes.png" alt="Axes icon">
+        <h1>Batalla de Variables</h1>
+        <p>Introduce tu nombre y pulsa el botón para enviar tu puntuación.</p>
+        <label for="playerName">Nombre del Jugador:</label>
+        <input type="text" id="playerName" placeholder="Escribe tu nombre..." />
+        <p>Puntuación: <span id="score">0</span></p> 
+
+        <button onclick="iniciarBatalla()">Comprobar puntuación</button>
+
+        <div id="message"></div>
+        <p>Para descargar este proyecto de GitHub puedes hacerlo en: <a href="">GiHub</a> </p>
+
+    </div>
+    <table id="ranking" aria-label="Ranking de jugadores">
+        <caption>Ranking de jugadores</caption>
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Jugador</th>
+                <th>Puntuación</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="js/battle.js"></script>
+    <script src="js/variables.js"></script>
+</body>
+</html>

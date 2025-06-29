@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #145374);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 2rem 3rem;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(20, 83, 116, 0.85);
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid #76c7f9;
+    background-color: #e1f0ff;
+    color: #00334d;
+}
+
+button {
+    background-color: #76c7f9;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #00334d;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+#score {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #d1f7ff;
+    text-shadow: 1px 1px 2px #00334d;
+}
+
+#message {
+    margin-top: 1rem;
+    color: #ffcccc;
+    font-weight: 600;
+    min-height: 1.2rem;
+}
+
+/* Tabla ranking */
+#ranking {
+    max-width: 480px;
+    margin: 0 auto 3rem auto;
+    border-collapse: collapse;
+    width: 100%;
+    background: rgba(20, 83, 116, 0.95);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    color: #e0f7ff;
+}
+
+#ranking thead {
+    background-color: #2c9edb;
+}
+
+#ranking th, #ranking td {
+    padding: 12px 18px;
+    text-align: left;
+    border-bottom: 1px solid #0a3a58;
+    font-weight: 600;
+}
+
+#ranking tbody tr:hover {
+    background-color: #4a90e2;
+    cursor: default;
+}
+
+#ranking caption {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: #76c7f9;
+    text-shadow: 1px 1px 3px #00334d;
+}
+
+.small {
+    width: 200px;
+    height: auto;
+}
